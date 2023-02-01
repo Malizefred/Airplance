@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head-section{
+    display: flex;
+    justify-content: space-between;
+}
+.car-text{
+    display: flex;
+}
+.car img{
+    width: 150px;
+    height: 100px;
+    padding-left: 20px;
+}
+.text{
+    padding-top: 20px;
+    font-family: "poppins";
+    display: flex;
+    font-size: 20px;
+}
+.icon{
+    padding-top: 2em;
+    color: red;
+    justify-content: space-evenly;
+}
+.contact{
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+ .sub-menu{
+  display: flex;
+}
+nav ul{
+    display: flex;
+    margin-left: 120px;
+}
+ nav ul li{
+    margin: 2em;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    color: red;
+
+}
+.logo img{
+    width: 100px;
+    margin-left: 3em;
+}
+.container{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/kitchen.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:500px;
+    color: white;
+    padding: 120px;
+    font-size: 20px;
+
+}
+.text2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.btn{
+    width: 200px;
+    background-color: red;
+    color: white;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.text3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.text4{
+    
+}
+.group-items{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.items{
+    width: 15%;
+    height: 200px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    /* background-color: red; */
+    box-shadow: 2px 3px 4px black, 2px 3px 4px black;
+    margin: 1em;
+    border-radius:5px ;
+}
+.hero-container{
+    display: flex;
+    margin-top: 30px;
+    height: 500px;
+}
+.hero-container-image{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/kitchen.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.container-image{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/safety.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.hero-container-text{
+    width: 90%;
+    background-color:rgb(209, 212, 212);
+    padding-top: 50px;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.test{
+    text-align: center;
+    margin-top: 30px;
+}
+hr{
+    background-color:red ;
+    width: 10%;
+    height: 3px;
+    margin: auto;
+    border-radius: 5px;
+}
+.testimonial-container{
+    display: flex;
+    margin-top: 50px;
+}
+.testimonial{
+    width: 30%;
+    background-color:rgb(209, 212, 212);
+    text-align: center;
+    height: 300px;
+    box-shadow: 2px 3px 4px black, 2px 3px 4px black;
+    margin: 1em;
+    border-radius:5px ;
+}
+.announce{
+    width: 90%;
+    height: 150px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.contact-area{
+    display: flex;
+    margin-top: 30px;
+
+}
+#name-password{
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+}
+#email{
+    width: 602px;
+    height: 50px;
+    border-radius: 8px; 
+    margin-top: 30px;
+}
+textarea{
+    width: 602px;
+    height: 200px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+#form-btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: navy;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    margin-left:160px;
+    margin-top:10px;
+}
+.contact-image{
+    background-image: url(../images/maps.png);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    border-radius: 2px;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    height: 300px;
+}
+.footer-container{
+    display: flex;
+    padding-top: 30px;
+}
+.item{
+    width: 30%;
+}
+.menu{
+    display: block;
+}
+.menu li{
+    list-style: none;
+
+    
+}
+.menu li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    margin: 1em;
+}
